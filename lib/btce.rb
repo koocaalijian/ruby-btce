@@ -63,7 +63,8 @@ module Btce
                         eur_usd
                         nvc_btc
                         ppc_btc
-                        ftc_btc)
+                        ftc_btc
+                        xpm_btc)
     MAX_DIGITS = {
       "btc_usd" => 3,
       "btc_eur" => 3,
@@ -76,7 +77,8 @@ module Btce
       "eur_usd" => 4,
       "nvc_btc" => 4,
       "ppc_btc" => 4,
-      "ftc_btc" => 4
+      "ftc_btc" => 4,
+      "xpm_btc" => 4
     }
     KEY = YAML::load File.open 'btce-api-key.yml'
 
